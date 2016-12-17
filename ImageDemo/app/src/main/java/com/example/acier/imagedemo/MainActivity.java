@@ -21,8 +21,7 @@ public class MainActivity extends AppCompatActivity {
         ima = (ImageView) findViewById(R.id.ima);
         ima1 = (ImageView) findViewById(R.id.ima1);
         ima.setAlpha(0.45f);
-
-
+        //gggggggg
         Glide.with(this).load("https://i.ytimg.com/vi/LxXX2I50Woc/mqdefault.jpg").asBitmap()
                 .transform(new FastBlur(this, 40))
                 .into(ima);
