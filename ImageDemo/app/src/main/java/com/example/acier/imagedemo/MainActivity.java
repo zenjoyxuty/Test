@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         ima = (ImageView) findViewById(R.id.ima);
         ima1 = (ImageView) findViewById(R.id.ima1);
         ima.setAlpha(0.45f);
+        //这是在本地
 
 
         Glide.with(this).load("https://i.ytimg.com/vi/LxXX2I50Woc/mqdefault.jpg").asBitmap()
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         Glide.with(this).load("http://i0.hdslb.com/bfs/archive/fb793cb05478c891265da630e4f07cb7922b8ac1.jpg").asBitmap()
                 .into(ima1);
-        System.out.("hhh");
+        System.out.print("hhh");
+
     }
 }
