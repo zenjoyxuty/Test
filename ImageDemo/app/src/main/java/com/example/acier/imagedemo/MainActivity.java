@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Glide.with(this).load("https://i.ytimg.com/vi/LxXX2I50Woc/mqdefault.jpg").asBitmap()
                 .transform(new FastBlur(this, 40))
                 .into(ima);
+        System.out.println("gjklgjl");
 
         Glide.with(this).load("http://i0.hdslb.com/bfs/archive/fb793cb05478c891265da630e4f07cb7922b8ac1.jpg").asBitmap()
                 .into(ima1);
