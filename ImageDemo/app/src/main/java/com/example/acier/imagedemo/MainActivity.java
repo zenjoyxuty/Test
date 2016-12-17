@@ -29,5 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
         Glide.with(this).load("http://i0.hdslb.com/bfs/archive/fb793cb05478c891265da630e4f07cb7922b8ac1.jpg").asBitmap()
                 .into(ima1);
+        System.out.("hhh");
     }
 }
